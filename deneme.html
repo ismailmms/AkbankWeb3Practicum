@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        table{
+            color: burlywood;
+            background-color: aquamarine;
+            border-collapse: collapse;
+            border-width: 1px;
+            border-color: antiquewhite;
+            
+
+        }
+        th{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bolder;
+            color: darkgoldenrod;
+            background-color: azure;
+            padding:10px;
+            margin: 15px;
+
+        }
+    td{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: lighter;
+        background-color: blueviolet;
+        color: azure;
+        text-align: center;
+        padding: 50px;
+        height: 30px;
+        vertical-align: top;
+        border-width: 5px;
+        border-color: blanchedalmond;
+
+
+    }
+    body{
+        background-image: url("resimler/galaxy-galaksi-uzay-space-wallpaper-01.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+
+
+
+    }
+    .bir{
+        position: relative;
+        top: 200px;
+    }
+    
+
+      </style>
+    </head>
+    <body>
+        <script>function oddishOrEvenish(sayi) {
+            sum = 0;
+            while (sayi > 0) {
+                sum += sayi % 10;
+                sayi = Math.floor(sayi / 10);
+            }
+        
+            if (sum % 2 === 0) {
+                console.log("Evenish")
+            } else {
+                console.log("Oddish");
+            }
+        }
+        
+        //Test sayilar
+        oddishOrEvenish(610);
+        oddishOrEvenish(5352);
+        oddishOrEvenish(81861);
+        oddishOrEvenish(7348);
+        oddishOrEvenish(711);
+        oddishOrEvenish(101);
+        </script>
+        <center><table class="bir" border="1">
+            <tr><th>Ülke</th><th>Nüfus</th></tr>
+            <tr><td>Türkiye</td><td>82.000000</td></tr>
+            <tr><td>İran</td><td>55.000000</td></tr>
+            <tr><td>Bulgaristan</td><td>10.000000</td></tr>
+
+        </table>
+   </center>
+
+    </body>
+   
+</html>
